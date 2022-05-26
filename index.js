@@ -71,9 +71,7 @@ restaurant2.add("Eggy");
 secondUser.favoriteRestaurant = Array.from(restaurant2);
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
-const users = [];
-users.push(firstUser);
-users.push(secondUser);
+const users = [firstUser, secondUser];
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
