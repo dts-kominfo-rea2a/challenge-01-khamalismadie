@@ -7,7 +7,7 @@ const secondUser = {};
 firstUser.name = "Monica";
 firstUser.gender = "Female";
 firstUser.age = 17;
-firstUser.email = "monica@dingdong.com"
+firstUser.email = "monica@dingdong.com";
 
 const color1 = new Set();
 color1.add("Yellow");
@@ -44,7 +44,7 @@ firstUser.favoriteRestaurant = Array.from(restaurant1);
 secondUser.name = "Wendy";
 secondUser.gender = "Male";
 secondUser.age = 23;
-secondUser.email = "wendy@dingdong.com"
+secondUser.email = "wendy@dingdong.com";
 
 const color2 = new Set();
 color2.add("Blue");
