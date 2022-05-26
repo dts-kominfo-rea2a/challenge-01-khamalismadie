@@ -37,7 +37,7 @@ restaurant1.add("Bento");
 restaurant1.add("Eggy");
 restaurant1.add("Padang");
 restaurant1.add("Tteok");
-restaurant1.add("Suhsi");
+restaurant1.add("Sushi");
 restaurant1.add("Sushi");
 firstUser.favoriteRestaurant = Array.from(restaurant1);
 
