@@ -13,7 +13,7 @@ const firstUser = {
         { name: 'SMP 02', city: 'Jakarta', graduate: 2019 },
         { name: 'SMA 03', city: 'Tangerang' },
     ],
-    FavoriteRestaurant: new Set(['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'])
+    favoriteRestaurant: new Set(['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'])
 };
 
 const secondUser = {};
@@ -30,7 +30,7 @@ secondUser.education = [
     { name: "SMA 01", city: "Surabaya", graduate: 2016 },
     { name: "Universitas Maju", city: "Tangerang" },
     ];
-secondUser.FavoriteRestaurant = new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]);
+secondUser.favoriteRestaurant = new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]);
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [firstUser, secondUser];
