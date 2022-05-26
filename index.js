@@ -30,7 +30,7 @@ firstUser.education = educationFirstUser;
 const restaurant1 = new Set();
 restaurant1.add("Bento");
 restaurant1.add("Sushi");
-restaurant1.add("pancake");
+restaurant1.add("Pancake");
 restaurant1.add("Eggy");
 restaurant1.add("Tempura");
 restaurant1.add("Bento");
