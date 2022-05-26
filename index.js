@@ -30,10 +30,12 @@ secondUser.education = [
     { name: "SMA 01", city: "Surabaya", graduate: 2016 },
     { name: "Universitas Maju", city: "Tangerang" },
     ];
-secondUser.favoriteRestaurant = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"];
+secondUser.favoriteRestaurant = new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]);
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
-const users = [firstUser, secondUser];
+const users = [];
+users.push(firstUser);
+users.push(secondUser);
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
