@@ -28,7 +28,7 @@ educationFirstUser.push(educationFirstUser3);
 firstUser.education = educationFirstUser;
 
 const restaurant1 = new Set();
-restaurant1.add("Benso");
+restaurant1.add("Bento");
 restaurant1.add("Sushi");
 restaurant1.add("pancake");
 restaurant1.add("Eggy");
