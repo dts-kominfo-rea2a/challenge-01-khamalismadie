@@ -2,8 +2,8 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 const firstUser = {};
+const secondUser = {};
 
-// Setting User Pertama
 firstUser.name = "Monica";
 firstUser.gender = "Female";
 firstUser.age = 17;
@@ -17,11 +17,15 @@ color1.add("Purple");
 firstUser.favoriteColor = Array.from(color1);
 
 firstUser.isHavePet = "Yes";
-firstUser.education = [
-    { name: "SD 01", city: "Jakarta", graduate: 2016 },
-    { name: "SMP 02", city: "Jakarta", graduate: 2019 },
-    { name: "SMA 03", city: "Tangerang", graduate: null },
-    ];
+
+const educationFirstUser = [];
+const educationFirstUser1 = { name: "SD 01", city: "Jakarta", graduate: 2016 };
+const educationFirstUser2 = { name: "SMP 02", city: "Jakarta", graduate: 2019 };
+const educationFirstUser3 = { name: "SMA 03", city: "Tangerang", graduate: null };
+educationFirstUser.push(educationFirstUser1);
+educationFirstUser.push(educationFirstUser2);
+educationFirstUser.push(educationFirstUser3);
+firstUser.education = educationFirstUser;
 
 const restaurant1 = new Set();
 restaurant1.add("Benso");
@@ -37,8 +41,6 @@ restaurant1.add("Suhsi");
 restaurant1.add("Sushi");
 firstUser.favoriteRestaurant = Array.from(restaurant1);
 
-const secondUser = {};
-
 secondUser.name = "Wendy";
 secondUser.gender = "Male";
 secondUser.age = 23;
@@ -51,12 +53,17 @@ color2.add("Grey");
 secondUser.favoriteColor = Array.from(color2);
 
 secondUser.isHavePet = "No";
-secondUser.education = [
-    { name: "SD 02", city: "Jakarta", graduate: 2010 },
-    { name: "SMP 03", city: "Bogor", graduate: 2013 },
-    { name: "SMA 01", city: "Surabaya", graduate: 2016 },
-    { name: "Universitas Maju", city: "Tangerang" },
-    ];
+
+const educationSecondUser = [];
+const educationSecondUser1 = { name: "SD 02", city: "Jakarta", graduate: 2010 };
+const educationSecondUser2 = { name: "SMP 03", city: "Bogor", graduate: 2013 };
+const educationSecondUser3 = { name: "SMA 01", city: "Surabaya", graduate: 2016 };
+const educationSecondUser4 = { name: "Universitas Maju", city: "Tangerang" };
+educationSecondUser.push(educationSecondUser1);
+educationSecondUser.push(educationSecondUser2);
+educationSecondUser.push(educationSecondUser3);
+educationSecondUser.push(educationSecondUser4);
+secondUser.education = educationSecondUser;
 
 const restaurant2 = new Set();
 restaurant2.add("Tempura");
